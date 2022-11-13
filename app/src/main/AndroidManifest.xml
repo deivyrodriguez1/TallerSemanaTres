@@ -13,6 +13,27 @@
         android:theme="@style/Theme.TallerSemanaTres"
         tools:targetApi="31">
         <activity
+            android:name=".Equipos"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Mapa"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Calculadora"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".RecycleView"
             android:exported="false">
             <meta-data
